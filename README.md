@@ -6,7 +6,7 @@ Allows you to enable and disable cpu cores in linux with a this simple python sc
 To install, download the repo and run the following commands in the repo directory. 
 ```bash
 chmod +x cpumng
-cp cpumng /bin/
+sudo cp cpumng /bin/
 
 
 sudo cpumng
