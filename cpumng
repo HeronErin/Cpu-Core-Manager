@@ -32,11 +32,11 @@ if len(sys.argv) == 1:
 
 How to use:
 
-[] list                 - Displays cpu cores
-[] maxPower             - Enables all cpu cores
-[] minPower             - Only sets one core enabled
-[] setActive (number)   - Sets how many cores to be enabled
-[] setNotActive (number) - Sets how many cores to be disabled
+cpumng list                 - Displays cpu cores
+cpumng maxPower             - Enables all cpu cores
+cpumng minPower             - Only sets one core enabled
+cpumng setActive (number)   - Sets how many cores to be enabled
+cpumng setNotActive (number) - Sets how many cores to be disabled
 		""")
 	exit(0)
 if sys.argv[1] == "list":
